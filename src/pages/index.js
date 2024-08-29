@@ -20,6 +20,7 @@ const Index = ({ pets }) => {
       </div>
       }
 
+      <div>Abelino Suarez Baquero</div>
       {/* Create a card for each pet */}
       {pets.map((pet) => (
         <div key={pet._id}>
